@@ -26,3 +26,31 @@
 Разбор провалов в файле fails.
 
 Сам пытался править is_correct, чтобы повысить точность дешевой модели, но за вечер не вышло :(. Accuracy упала.
+
+# 1. Клонируем репозиторий
+git clone https://github.com/sergey561561-coder/AI_Agents_PRO
+cd homework01
+
+# 2. Создаём виртуальное окружение (рекомендуется)
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# Linux/macOS:
+source .venv/bin/activate
+
+# 3. Устанавливаем зависимости
+pip install -r requirements.txt
+
+# 4. Настраиваем ключ OpenRouter
+cp .env.example .env
+# Откройте .env и впишите ваш ключ:
+# OPENROUTER_API_KEY=sk-or-v1-...
+
+# 5. Проверяем, что всё работает (инструменты без LLM)
+python agent.py test
+
+Доступные опции:
+--model {cheap,mid,strong} — выбор модели (по умолчанию cheap);
+--tools "инструмент1,инструмент2" — список доступных инструментов через запятую (по умолчанию web_search,page_find,calculator,python_exec);
+--max-steps N — максимальное количество шагов агента (по умолчанию 8);
+--measure прогон по всем моделям.
