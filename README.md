@@ -48,7 +48,7 @@ OPENROUTER_API_KEY=sk-or-v1-...
 python agent.py test
 
 Доступные опции:
---model {cheap,mid,strong} — выбор модели (по умолчанию cheap);
---tools "инструмент1,инструмент2" — список доступных инструментов через запятую (по умолчанию web_search,page_find,calculator,python_exec);
---max-steps N — максимальное количество шагов агента (по умолчанию 8);
+--model, {cheap,mid,strong}выбор модели (по умолчанию cheap);
+--tools, "инструмент1,инструмент2" список доступных инструментов через запятую (по умолчанию web_search,page_find,calculator,python_exec);
+--max-steps, N максимальное количество шагов агента (по умолчанию 8);
 measure прогон по всем моделям.
