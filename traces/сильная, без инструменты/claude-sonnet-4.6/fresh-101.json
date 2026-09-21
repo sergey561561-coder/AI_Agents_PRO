@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "fresh-101",
+    "source": "fresh",
+    "question": "What is the duration of the ceasefire in the 2026 Lebanon war?",
+    "answer": "10-day",
+    "evidence": "April 16 – 2026 Lebanon war: A US-brokered 10-day ceasefire takes effect between Israel and Lebanon, following ambassador-level talks in the White House.",
+    "page": "2026",
+    "url": "https://en.wikipedia.org/wiki/2026",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "prediction": "I don't have information about a \"2026 Lebanon war\" in my training data. My knowledge cutoff is early 2025, so I wouldn't have details about events occurring in 2026.\n\nIf you're referring to a specific conflict or ceasefire agreement that occurred after my knowledge cutoff, I wouldn't be able to provide accurate details about it.\n\nFINAL: I don't have information about a 2026 Lebanon war ceasefire in my training data.",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "What is the duration of the ceasefire in the 2026 Lebanon war?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have information about a \"2026 Lebanon war\" in my training data. My knowledge cutoff is early 2025, so I wouldn't have details about events occurring in 2026.\n\nIf you're referring to a specific conflict or ceasefire agreement that occurred after my knowledge cutoff, I wouldn't be able to provide accurate details about it.\n\nFINAL: I don't have information about a 2026 Lebanon war ceasefire in my training data.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

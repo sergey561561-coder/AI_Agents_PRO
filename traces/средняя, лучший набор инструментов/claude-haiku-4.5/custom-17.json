@@ -1,0 +1,53 @@
+{
+  "task": {
+    "id": "custom-17",
+    "source": "custom",
+    "question": "Who is elected as the lord mayor in the 2026 Newcastle by-election in April?",
+    "answer": "Gavin Morris",
+    "evidence": "18 April – The 2026 Newcastle lord mayoral by-election is held, resulting in the election of Gavin Morris.",
+    "page": "2026 in Australia",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "prediction": "FINAL: Gavin Morris, an independent candidate, was elected as lord mayor in the 2026 Newcastle by-election in April, winning with over 67% of the two-candidate preferred vote.",
+  "correct": true,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "Who is elected as the lord mayor in the 2026 Newcastle by-election in April?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about the 2026 Newcastle by-election and the lord mayor election.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01G3UH7GnXsHEyvhrzGTB65s",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"2026 Newcastle by-election April lord mayor\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01G3UH7GnXsHEyvhrzGTB65s",
+      "content": "[2026 Newcastle lord mayoral by-election] A by-election was held on 18 April 2026 to elect the lord mayor of the City of Newcastle. The vacancy was triggered by the resignation of Lord Mayor Ross Kerridge to focus on his health.\nIndependent candidate Gavin Morris was elected in a landslide with over 67% of the two-candidate preferred vote.\n\n"
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Gavin Morris, an independent candidate, was elected as lord mayor in the 2026 Newcastle by-election in April, winning with over 67% of the two-candidate preferred vote.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

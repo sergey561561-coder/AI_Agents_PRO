@@ -1,0 +1,201 @@
+{
+  "task": {
+    "id": "fresh-45",
+    "source": "fresh",
+    "question": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?",
+    "answer": "F-16 Fighting Falcon",
+    "evidence": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.",
+    "page": "2026 in Turkey",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "prediction": "== 2026 ==\n=== January 2026 ===\n=== February 2026 ===\n=== March 2026 ===\n=== April 2026 ===",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about an aircraft crash in Yalova Province, Turkey on August 13, 2026.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_018GYpmPJ8z5Rtagcp9N8Ydu",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Yalova Province Turkey aircraft crash August 13 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_018GYpmPJ8z5Rtagcp9N8Ydu",
+      "content": "[2026 in Turkey] Individuals and events related to 2026 in Turkey."
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search more specifically for this crash:",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01V47BxgMqMB6FNjq3XtwEd3",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Yalova aircraft crash 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01V47BxgMqMB6FNjq3XtwEd3",
+      "content": "[Beechcraft Bonanza] The Beechcraft Bonanza is an American general aviation aircraft introduced in 1947 by Beech Aircraft Corporation of Wichita, Kansas. The four-to-six seat, single-engined aircraft has been in continuous production longer than any other aircraft in history. More than 18,000 Bonanzas of all variants, and over 6,000 twin-engined derivatives, have been built. produced in both distinctive V-tail and conventional-tail configurations; early conventional-tail versions were marketed as the Debonair.\nIn November 2025, Textron Aviation (the later corporate owner of Beechcraft) announced that the Bonanza and the Beechcraft Baron were ceasing production once the final backlog of orders was filled.  Textron assured existing owners that parts, maintenance, and support for the Bonanza will continue to be provided."
+    },
+    {
+      "role": "assistant",
+      "content": "Let me try a different search approach:",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01LxZnGpUzdsyh8cGRaC4eVJ",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"\\\"August 13 2026\\\" crash Turkey\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01LxZnGpUzdsyh8cGRaC4eVJ",
+      "content": "[List of traffic collisions (2000–present)] This list of traffic collisions records serious road traffic accidents, with multiple fatalities. The list includes notable accidents with at least 10 deaths, which either occurred in unusual circumstances, or have some other significance. For crashes that killed notable people, refer to the list of people who died in traffic collisions. This list records crashes from the year 2000. For earlier crashes, see list of traffic collisions (before 2000)."
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search for aviation accidents in Turkey in 2026:",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01WKdrsyaVwMuEuHeigrC8bn",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"aviation accident Turkey 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01WKdrsyaVwMuEuHeigrC8bn",
+      "content": "[List of aviation shootdowns and accidents during the 2026 Iran war] This is a list of aviation shootdowns, incidents and accidents during the 2026 Iran war based on visual evidence or official self-admission from involved parties. It includes proven helicopters, fixed-wing aircraft and military drones (UCAVs) losses."
+    },
+    {
+      "role": "assistant",
+      "content": "Let me check this article about aviation incidents in 2026:",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01Utc8cPE7phGw4pvDU35JWV",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"List of aviation shootdowns and accidents during the 2026 Iran war\", \"keywords\": \"Yalova, Turkey, August 13\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01Utc8cPE7phGw4pvDU35JWV",
+      "content": "No exact matches for 'Yalova, Turkey, August 13'. Start of article:\nThis is a list of aviation shootdowns, incidents and accidents during the 2026 Iran war based on visual evidence or official self-admission from involved parties. It includes proven helicopters, fixed-wing aircraft and military drones (UCAVs) losses.\n\n\n== Timeline of aviation shootdowns, incidents and accidents ==\n\n\n=== February ===\n 28 February 2026 - The wreckage of an Israeli Elbit Hermes 900 drone, serial number 935, was recorded at Khamaneh city in East Azerbaijan province.\n\n\n=== March ===\n..."
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search more specifically for Yalova Province incidents:",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_019rQDYr6B3T4TKruQE8LLh8",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"\\\"Yalova Province\\\" crash August 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_019rQDYr6B3T4TKruQE8LLh8",
+      "content": "[List of accidents and incidents involving military aircraft (2020–present)] This is a list of accidents and incidents involving military aircraft grouped by the year in which the accident or incident occurred. Not all of the aircraft were in operation at the time. Combat losses are not included except for a few cases denoted by singular circumstances."
+    },
+    {
+      "role": "assistant",
+      "content": "Let me check this military aircraft accidents list:",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_011LeLwk9CY22npuGsXveFWN",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"List of accidents and incidents involving military aircraft (2020–present)\", \"keywords\": \"Yalova, August 13, 2026, Turkey\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_011LeLwk9CY22npuGsXveFWN",
+      "content": "A Eurocopter AS532 helicopter crashes in southeast Turkey, killing eleven soldiers, including Lieutenant General Osman Erbaş, the commander of the 8th Corps, later died of wounds, and injuring three.\nA Turkish Air Force Transall C-160 military transport aircraft, modified for electronic intelligence gathering, made an emergency landing at Kayseri Airport, Kayseri, Turkey, after experiencing a technical defect during a training flight. According to the Turkish military, the aircraft sustained only minor damage in the landing, though German aviation magazine Flug Revue, citing images of the crashed aircraft shared on social media, says the damage is more substantial and may result in the aircraft being written off. The crew aboard the aircraft is reported to be in healthy condition.\nA Bell UH-1H Iroquois of the Turkish Air Force crashed in Bademler, Urla, İzmir Province, Turkey, due to a technical issue. One of the three personnel aboard the aircraft was injured in the accident.\nA SIAI Marchetti SF.260D trainer aircraft of the Turkish Air Force crashed in Kayseri Province, Turkey, killing its two pilots.\n== 2026 =="
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search for more specific information about 2026 incidents:",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01M5H2uKXRECZTep9JWv8Buu",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"List of accidents and incidents involving military aircraft (2020–present)\", \"keywords\": \"2026, Yalova\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01M5H2uKXRECZTep9JWv8Buu",
+      "content": "== 2026 ==\n=== January 2026 ===\n=== February 2026 ===\n=== March 2026 ===\n=== April 2026 ==="
+    }
+  ]
+}

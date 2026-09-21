@@ -1,0 +1,75 @@
+{
+  "task": {
+    "id": "fresh-102",
+    "source": "fresh",
+    "question": "Who was recognized as Hero of Ukraine in 2025?",
+    "answer": "Oleksandr Dovhach",
+    "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+    "page": "2026 in Ukraine",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "prediction": "The search did not return specific information about who was recognized as Hero of Ukraine in 2025. Therefore, I cannot provide the name of the individual awarded this title in that year.\n\nFINAL: Unknown",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "Who was recognized as Hero of Ukraine in 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_ZlCQ8ET2wumbrCFydfMC8Koq",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Hero of Ukraine 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ZlCQ8ET2wumbrCFydfMC8Koq",
+      "content": "[Hero of Ukraine] A Hero of Ukraine (abbr.  HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. \nThe decoration was created in 1998 by President Leonid Kuchma. As of July 26, 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). \nThe decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr.  OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr.  OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\"). \nThe first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_dgInoPiNQbMTJ9JfCLy08MtH",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"Hero of Ukraine\",\"keywords\":\"2025, recognized, awarded\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_dgInoPiNQbMTJ9JfCLy08MtH",
+      "content": "The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017.\nThe origin of the \"Hero of Ukraine\" award can be traced to the Hero of the Soviet Union (established 16 April 1934) and the Hero of Socialist Labor (27 December 1938), the highest decorations established in the Soviet Union, of which Ukraine was a constituent republic. Most of the recipients of the former title received it for heroic military action (with Soviet cosmonauts being a notable exception), while those awarded the latter were recognized for their contributions to national economy and culture. The awards could be given to the same individual more than once, and only the Presidium of the Supreme Soviet could deprive a recipient of the award once given. After the dissolution of the Soviet Union in 1991, similar awards were created in the resulting independent countries, including Ukraine.\nThe title Hero of Ukraine was created on 23 August 1998 with Edict #944/98 by President Leonid Kuchma. Similar in structure to the titles issued by the Soviet Union, the title is awarded in two distinctions: \"The Order of the Gold Star\" and \"The Order of the State\". Unlike the Soviet awards, Ukrainian law allows a person to receive a title in each distinction only once, although the person may receive both levels in due course. This means that if a holder of the Order of the State performs a heroic action, he or she can be presented with the Order of the Gold Star. Vice versa, if labor achievements of a holder of the Order of the Gold Star are recognized to be of exceptional value to the nation, the recipient can be eligible to receive the Order of the State. Either of the distinctions can be presented posthumously, and a hero may only have his title removed by the president if they are convicted of a serious crime.\nThe 1998 edict contained general guidelines about the title. Some of the subjects mentioned were the criteria for receiving each level of the title, who can present the t"
+    },
+    {
+      "role": "assistant",
+      "content": "The search did not return specific information about who was recognized as Hero of Ukraine in 2025. Therefore, I cannot provide the name of the individual awarded this title in that year.\n\nFINAL: Unknown",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

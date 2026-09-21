@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "fresh-100",
+    "source": "fresh",
+    "question": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?",
+    "answer": "252,756 miles",
+    "evidence": "April 6 – The crew of Artemis II breaks the record for the furthest humans have ever been from Earth, reaching a maximum distance of 252,756 miles (406,771 km) as they travel around the far side of the Moon.",
+    "page": "2026",
+    "url": "https://en.wikipedia.org/wiki/2026",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "prediction": "Artemis II is a planned crewed mission to the Moon, and as of my last update, it was scheduled for 2024. However, I do not have specific information about events or distances reached by the crew on April 6, 2026, as that date is beyond my training data. \n\nFor the most accurate and up-to-date information, I recommend checking NASA's official announcements or news sources closer to that date. \n\nFINAL: Неизвестно.",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "Artemis II is a planned crewed mission to the Moon, and as of my last update, it was scheduled for 2024. However, I do not have specific information about events or distances reached by the crew on April 6, 2026, as that date is beyond my training data. \n\nFor the most accurate and up-to-date information, I recommend checking NASA's official announcements or news sources closer to that date. \n\nFINAL: Неизвестно.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

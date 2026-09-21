@@ -1,0 +1,167 @@
+{
+  "task": {
+    "id": "custom-12",
+    "source": "custom",
+    "question": "How many people were killed in the explosion at a firecrackers factory in India?",
+    "answer": "23",
+    "evidence": "19 April – At least 23 people are killed and six others are injured in an explosion at a firecrackers factory in Virudhunagar, Tamil Nadu.",
+    "page": "2026 in India",
+    "url": "https://en.wikipedia.org/wiki/2026_in_India",
+    "sonnet_answer": "The question lacks specifics, but notable incidents include: ~39 killed in Tamil Nadu (2012), ~19 in Tamil Nadu (2021), and ~11 in Madhya Pradesh (2024). Please specify which incident for an exact answer.",
+    "agent_ok": true
+  },
+  "prediction": "FINAL: 21",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "How many people were killed in the explosion at a firecrackers factory in India?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_vF8IWlEAeD5acnORo6N3RJ03",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"firecrackers factory explosion India casualties\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_vF8IWlEAeD5acnORo6N3RJ03",
+      "content": "[List of explosions] This is a list of accidental explosions and facts about each one, grouped by the time of their occurrence. It does not include explosions caused by terrorist attacks or arson, as well as intentional explosions for civil or military purposes. It may still include entries for which the cause is unclear or still under investigation. \nFor a list based on power or death toll see largest artificial non-nuclear explosions or the explosions section of list of accidents and disasters by death toll. This list also contains notable explosions that would not qualify for the articles mentioned above and is more detailed, especially for the latest centuries."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_vLJwUugmYPa6D8j64KR3yHt8",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"firecrackers factory explosion India news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_vLJwUugmYPa6D8j64KR3yHt8",
+      "content": "[Sivakasi factory explosion] The 2012 Sivakasi factory explosion was an explosion at the Om Sakthi Fireworks Industries fireworks factory in Sivakasi, India, on 5 September 2012. Forty people were killed and more than 70 were injured. The explosion occurred in a fireworks factory which did not have a valid licence."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_X7VQzluweOyHy1qPBWrzf6yV",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"firecrackers factory explosion India 2023\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_X7VQzluweOyHy1qPBWrzf6yV",
+      "content": "[2025 Gujarat factory fire] On 1 April 2025, an explosion at a warehouse manufacturing fireworks in the suburbs of Deesa, India, killed 21 of the 24 people inside of the building at the time of the incident. The warehouse, named Deepak Fatakda, had its license expire the previous year, and was not qualified to continue business. Highly reactive and cheap aluminium powder was found to be the cause in a forensic probe conducted in the incident's aftermath. An ex gratia payment was announced by Indian Prime Minister Narendra Modi in response."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_uoOpTED1smquuPHT2isqJ7M5",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"firecrackers factory explosion India casualties 2023\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_uoOpTED1smquuPHT2isqJ7M5",
+      "content": "[2026 in India] The following is a list of events for the year 2026 in India.\n\n"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_HReGC0WBy9iR0wjKwMYd948y",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"firecrackers factory explosion India 2023 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_HReGC0WBy9iR0wjKwMYd948y",
+      "content": "[Firecracker] A firecracker (cracker, noise maker, banger) is a small explosive device primarily designed to produce a large amount of noise, especially in the form of a loud bang, usually for celebration or entertainment; any visual effect is incidental to this goal. They have fuses, and are wrapped in a heavy paper casing to contain the explosive compound.  Firecrackers, along with fireworks, originated in China.\n\n"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_PAol4yENCUNVPAjq9WwP0bhv",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"firecrackers factory explosion India 2023\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_PAol4yENCUNVPAjq9WwP0bhv",
+      "content": "[2025 Gujarat factory fire] On 1 April 2025, an explosion at a warehouse manufacturing fireworks in the suburbs of Deesa, India, killed 21 of the 24 people inside of the building at the time of the incident. The warehouse, named Deepak Fatakda, had its license expire the previous year, and was not qualified to continue business. Highly reactive and cheap aluminium powder was found to be the cause in a forensic probe conducted in the incident's aftermath. An ex gratia payment was announced by Indian Prime Minister Narendra Modi in response."
+    },
+    {
+      "role": "user",
+      "content": "You repeated the same action. Please provide your final answer now starting with FINAL: "
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: 21",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

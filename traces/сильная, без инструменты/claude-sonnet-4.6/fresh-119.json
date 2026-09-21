@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "fresh-119",
+    "source": "fresh",
+    "question": "What cities have resumed passenger services in May 2026?",
+    "answer": "Baku and Tbilisi",
+    "evidence": "26 May – Passenger servises resume between Baku and Tbilisi.",
+    "page": "2026 in rail transport",
+    "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "prediction": "I don't have specific information about events in May 2026, as my knowledge cutoff is July 2025, and I cannot predict future events.\n\nIf you're asking about a specific transportation route, railway line, or airline service that was announced or planned before my cutoff date, please provide more context and I'll do my best to help.\n\nFINAL: I don't have information about May 2026 events.",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "What cities have resumed passenger services in May 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have specific information about events in May 2026, as my knowledge cutoff is July 2025, and I cannot predict future events.\n\nIf you're asking about a specific transportation route, railway line, or airline service that was announced or planned before my cutoff date, please provide more context and I'll do my best to help.\n\nFINAL: I don't have information about May 2026 events.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

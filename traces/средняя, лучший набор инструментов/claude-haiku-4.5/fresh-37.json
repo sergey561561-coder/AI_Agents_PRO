@@ -1,0 +1,119 @@
+{
+  "task": {
+    "id": "fresh-37",
+    "source": "fresh",
+    "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+    "answer": "15 June",
+    "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+    "page": "2026 in the United Kingdom",
+    "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "prediction": "I apologize, but I'm unable to find specific information about resident doctors in England announcing a four-day strike in June 2026. The search results are not returning relevant information about this event. This could be because:\n\n1. The event may not have occurred yet (if we're currently before June 2026)\n2. The information may not be widely available on Wikipedia\n3. The specific date or details may be different from what was searched\n\nCould you provide any additional context or verify the date? This would help me search more effectively for the information you're looking for.",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about the resident doctors' strike in England in June 2026.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01KFNW1Hqc2nwKdSTYYM7Mb1",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"resident doctors England four-day strike June 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01KFNW1Hqc2nwKdSTYYM7Mb1",
+      "content": "[2026 in England] Events of the year 2026 in England.\n\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search for more specific information about this strike.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01JX22TF15XYahn5PXutkxCh",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"junior doctors strike England June 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01JX22TF15XYahn5PXutkxCh",
+      "content": "[Resident doctor (United Kingdom)] In the United Kingdom, a resident doctor, known until 2024 as a junior doctor, is a qualified medical practitioner who is either engaged in postgraduate training or employed in a non-training post. The period of being a resident doctor starts when they qualify as a medical practitioner following graduation with a Bachelor of Medicine, Bachelor of Surgery degree and start the UK Foundation Programme. It culminates in a post as a consultant, a general practitioner (GP), or becoming a SAS doctor (Specialty, Associate Specialist, or Specialist doctor).\nThe term resident doctor currently incorporates the grades of foundation doctor, core trainee (in some specialties, such as surgery, medicine, and psychiatry), and specialty registrar. Before 2007, it included the grades of pre-registration house officer, senior house officer and specialist registrar. During this time, resident doctors will do postgraduate examinations to become members of a medical royal college relevant to the specialty in which they are training, for example membership of the Royal College of Physicians for doctors specialising in internal medicine, membership of the Royal College of Surgeons for doctors specialising in surgery or membership of the Royal College of General Practitioners for doctors specialising in family medicine. Doctors typically may be resident doctors for 8–20 years, and this may be extended by doing research towards a higher degree, for example a Doctor of Philosophy or Doctor of Medicine degree. In England, there are around 71,000 resident doctors.\n\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me try a different search approach.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01AywF7pnB4iB1YMgeqnW4Ei",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"2026 in England doctors strike\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01AywF7pnB4iB1YMgeqnW4Ei",
+      "content": "[2022–2024 National Health Service strikes] The 2022–2024 National Health Service (NHS) strikes were a series of concurrent industrial disputes in the publicly funded health services of the United Kingdom.\nThe disputes related to the several staff groups on the Agenda for Change pay scale, as well as those on the junior doctor and consultant contracts. Rather than a single confrontation, the industrial disputes took place between workers represented by several unions across various jurisdictions and many NHS trusts. This meant that the disputes were each resolved individually over a two year period. An early pay rise offer from the Scottish government avoided long-term industrial action in the area. The bulk of the disputes were resolved by summer 2023, though the junior doctor's strikes continued. Further strikes in Scotland were averted, and a final resolution for doctors in England took place in September 2024.\n\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search more specifically for June 2026 events.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_013ghNCpAoV9D3J5R2eLd6XB",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"\\\"June 2026\\\" doctors strike announcement\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_013ghNCpAoV9D3J5R2eLd6XB",
+      "content": "[Christian Cooke] Christian Louis Cooke (born 15 September 1986) is an English actor. He is known for playing Freddie Taylor in Cemetery Junction and Len Matthews in the Channel 4 mini series The Promise. Cooke played Garry Kasparov in the mini series Rematch on Disney +, and Ron in the movie Plainclothes, which won a Special Jury Award at Sundance 2025.\nOther television roles include Magic City (2012–13) and That Dirty Black Bag for AMC, and his other film roles include Mercutio in Romeo & Juliet (2013), Electricity (2014), Love, Rosie (2014) and Drunk Wedding (2015).\n\n"
+    },
+    {
+      "role": "assistant",
+      "content": "I apologize, but I'm unable to find specific information about resident doctors in England announcing a four-day strike in June 2026. The search results are not returning relevant information about this event. This could be because:\n\n1. The event may not have occurred yet (if we're currently before June 2026)\n2. The information may not be widely available on Wikipedia\n3. The specific date or details may be different from what was searched\n\nCould you provide any additional context or verify the date? This would help me search more effectively for the information you're looking for.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

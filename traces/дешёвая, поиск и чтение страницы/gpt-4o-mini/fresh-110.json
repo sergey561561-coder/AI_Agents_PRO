@@ -1,0 +1,119 @@
+{
+  "task": {
+    "id": "fresh-110",
+    "source": "fresh",
+    "question": "Who wins the special election in Georgia in 2026?",
+    "answer": "Clay Fuller",
+    "evidence": "Assistant District Attorney Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene, who resigned in January following a public fallout with Trump.",
+    "page": "2026 in the United States",
+    "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "prediction": "Everton Blair won the special election in Georgia's 13th congressional district in 2026. \n\nFINAL: Everton Blair",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "Who wins the special election in Georgia in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_xlGu6m9RHtLKmJbcXCoIeKXW",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Georgia special election 2026 results\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_xlGu6m9RHtLKmJbcXCoIeKXW",
+      "content": "[2026 Georgia's 13th congressional district special election] The 2026 Georgia's 13th congressional district special election was held on July 28, 2026, to elect the U.S. representative for Georgia's 13th congressional district. The special election was triggered following the death of incumbent Democratic representative David Scott on April 22, 2026. As no candidate received a majority of the vote, a runoff was held on August 25 between Democrats Marcye Scott and Everton Blair."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_IpmantaJyR6yfIiyMUC50dWb",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"2026 Georgia's 13th congressional district special election\",\"keywords\":\"winner, results\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_IpmantaJyR6yfIiyMUC50dWb",
+      "content": "==== Results ====\n==== Results ===="
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_QVc7pOxi1U72comnIVgtVdrx",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"2026 Georgia's 13th congressional district special election winner\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_QVc7pOxi1U72comnIVgtVdrx",
+      "content": "[Georgia's 6th congressional district] Georgia's 6th congressional district is a congressional district in the U.S. state of Georgia. As of 2024, it is represented by Democrat Lucy McBath. It is the wealthiest wealthiest congressional district in the Southeastern United States --outside of Northern Virginia-- and the 28th wealthiest in the United States, with 27.0 percent of households earning over $200,000, per a 2024 study."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_7mu8BSBOOP1LDV0TR1AiaTfe",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Marcye Scott Everton Blair runoff election results August 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_7mu8BSBOOP1LDV0TR1AiaTfe",
+      "content": "[Everton Blair] Everton Blair Jr. (born April 23, 1992) is an American politician and educator serving as the U.S. representative for Georgia's 13th congressional district since September 2026. A member of the Democratic Party, he won a special election to fill the unexpired term of the late David Scott. Blair is the first openly LGBT African American elected to represent a Southern state in Congress.\nBlair previously served as a member and chair of the Gwinnet County School Board. He ran in the regularly-scheduled primary election for a full term in May 2026, placing third with 11.6% of the vote."
+    },
+    {
+      "role": "assistant",
+      "content": "Everton Blair won the special election in Georgia's 13th congressional district in 2026. \n\nFINAL: Everton Blair",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

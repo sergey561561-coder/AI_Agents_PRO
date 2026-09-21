@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "fresh-110",
+    "source": "fresh",
+    "question": "Who wins the special election in Georgia in 2026?",
+    "answer": "Clay Fuller",
+    "evidence": "Assistant District Attorney Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene, who resigned in January following a public fallout with Trump.",
+    "page": "2026 in the United States",
+    "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "prediction": "I don't have information about events in 2026. My knowledge cutoff is early 2025, and I cannot predict future election outcomes.\n\nFINAL: Unknown — this event has not occurred yet",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "Who wins the special election in Georgia in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have information about events in 2026. My knowledge cutoff is early 2025, and I cannot predict future election outcomes.\n\nFINAL: Unknown — this event has not occurred yet",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

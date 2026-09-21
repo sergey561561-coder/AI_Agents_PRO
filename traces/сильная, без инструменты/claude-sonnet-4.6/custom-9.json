@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "custom-9",
+    "source": "custom",
+    "question": "What date is the one-off extra Bank Holiday granted by the King in the United Kingdom?",
+    "answer": "Monday 15 June",
+    "evidence": "The King grants Scotland a one-off extra Bank Holiday for Monday 15 June to coincide with Scotland's first FIFA World Cup match since 1998, which takes place the day before.",
+    "page": "2026 in the United Kingdom",
+    "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+    "sonnet_answer": "8 May 2023",
+    "agent_ok": false
+  },
+  "prediction": "The one-off extra Bank Holiday granted by the King in the United Kingdom was for the Coronation of King Charles III, which took place on **8 May 2023**.\n\nFINAL: 8 May 2023",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "What date is the one-off extra Bank Holiday granted by the King in the United Kingdom?"
+    },
+    {
+      "role": "assistant",
+      "content": "The one-off extra Bank Holiday granted by the King in the United Kingdom was for the Coronation of King Charles III, which took place on **8 May 2023**.\n\nFINAL: 8 May 2023",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

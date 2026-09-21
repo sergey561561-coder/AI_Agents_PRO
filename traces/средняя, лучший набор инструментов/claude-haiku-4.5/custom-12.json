@@ -1,0 +1,53 @@
+{
+  "task": {
+    "id": "custom-12",
+    "source": "custom",
+    "question": "How many people were killed in the explosion at a firecrackers factory in India?",
+    "answer": "23",
+    "evidence": "19 April – At least 23 people are killed and six others are injured in an explosion at a firecrackers factory in Virudhunagar, Tamil Nadu.",
+    "page": "2026 in India",
+    "url": "https://en.wikipedia.org/wiki/2026_in_India",
+    "sonnet_answer": "The question lacks specifics, but notable incidents include: ~39 killed in Tamil Nadu (2012), ~19 in Tamil Nadu (2021), and ~11 in Madhya Pradesh (2024). Please specify which incident for an exact answer.",
+    "agent_ok": true
+  },
+  "prediction": "Based on the search results, the most notable firecrackers factory explosion in India was the **2012 Sivakasi factory explosion** on September 5, 2012, at the Om Sakthi Fireworks Industries factory in Sivakasi.\n\nFINAL: 40 people were killed in the 2012 Sivakasi firecrackers factory explosion in India.",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "How many people were killed in the explosion at a firecrackers factory in India?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about a firecrackers factory explosion in India.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01HEv945LcPfABHU1ZrNF7uy",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"firecrackers factory explosion India killed\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01HEv945LcPfABHU1ZrNF7uy",
+      "content": "[Sivakasi factory explosion] The 2012 Sivakasi factory explosion was an explosion at the Om Sakthi Fireworks Industries fireworks factory in Sivakasi, India, on 5 September 2012. Forty people were killed and more than 70 were injured. The explosion occurred in a fireworks factory which did not have a valid licence."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, the most notable firecrackers factory explosion in India was the **2012 Sivakasi factory explosion** on September 5, 2012, at the Om Sakthi Fireworks Industries factory in Sivakasi.\n\nFINAL: 40 people were killed in the 2012 Sivakasi firecrackers factory explosion in India.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

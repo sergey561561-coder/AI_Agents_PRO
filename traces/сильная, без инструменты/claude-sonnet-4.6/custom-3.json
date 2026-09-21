@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "custom-3",
+    "source": "custom",
+    "question": "What commission is convened in South Korea on 26 February 2026?",
+    "answer": "Truth and Reconciliation Commission",
+    "evidence": "26 February – A Truth and Reconciliation Commission is convened to investigate anomalies in the international adoption of South Korean children.",
+    "page": "2026 in South Korea",
+    "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "prediction": "I need to find information about a commission being convened in South Korea on 26 February 2026.\n\nLet me think about this. Based on my knowledge, South Korea has been dealing with various political and constitutional matters. Given the political situation in South Korea following President Yoon Suk-yeol's impeachment and related events, there may be a special commission or hearing scheduled.\n\nHowever, I don't have specific reliable information about an event scheduled for February 26, 2026. Let me consider what I know about scheduled events in South Korea around that time.\n\nBased on my knowledge cutoff, I'm not certain about a specific commission convened on exactly that date. This could relate to the Constitutional Court proceedings, a truth commission, or another governmental body.\n\nI don't have sufficient reliable information to definitively answer what specific commission is convened in South Korea on 26 February 2026 without risking providing incorrect information.\n\nFINAL: I don't have reliable information about a specific commission convened in South Korea on 26 February 2026.",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "What commission is convened in South Korea on 26 February 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I need to find information about a commission being convened in South Korea on 26 February 2026.\n\nLet me think about this. Based on my knowledge, South Korea has been dealing with various political and constitutional matters. Given the political situation in South Korea following President Yoon Suk-yeol's impeachment and related events, there may be a special commission or hearing scheduled.\n\nHowever, I don't have specific reliable information about an event scheduled for February 26, 2026. Let me consider what I know about scheduled events in South Korea around that time.\n\nBased on my knowledge cutoff, I'm not certain about a specific commission convened on exactly that date. This could relate to the Constitutional Court proceedings, a truth commission, or another governmental body.\n\nI don't have sufficient reliable information to definitively answer what specific commission is convened in South Korea on 26 February 2026 without risking providing incorrect information.\n\nFINAL: I don't have reliable information about a specific commission convened in South Korea on 26 February 2026.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

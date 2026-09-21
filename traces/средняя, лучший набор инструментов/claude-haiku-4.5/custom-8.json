@@ -1,0 +1,163 @@
+{
+  "task": {
+    "id": "custom-8",
+    "source": "custom",
+    "question": "What is the name of the championship held in Akron, Ohio in July 2026?",
+    "answer": "Kaulig Companies Championship",
+    "evidence": "July 9–12: Kaulig Companies Championship at Firestone Country Club in Akron, Ohio – Zach Johnson",
+    "page": "2026 in sports",
+    "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+    "sonnet_answer": "The Solheim Cup (2026), scheduled to be held at Firestone Country Club in Akron, Ohio.",
+    "agent_ok": true
+  },
+  "prediction": "Based on my research, the championship held in Akron, Ohio in July 2026 is the **Kaulig Companies Championship** (formerly known as the Senior Players Championship). It is held at the South course of Firestone Country Club in Akron, Ohio. This is one of the five major championships on the PGA Tour Champions for senior golfers aged 50 and older.\n\nFINAL: Kaulig Companies Championship",
+  "correct": true,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "What is the name of the championship held in Akron, Ohio in July 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about a championship held in Akron, Ohio in July 2026.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01K9hT28rsQ8rPds1dgVdsqm",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Akron Ohio championship July 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01K9hT28rsQ8rPds1dgVdsqm",
+      "content": "[Akron RubberDucks] The Akron RubberDucks are a Minor League Baseball team based in Akron, Ohio. The team plays in the Eastern League and is the Double-A affiliate of the Cleveland Guardians. They play in 7 17 Credit Union Park, located in downtown Akron, which seats 7,630 fans. The nickname \"RubberDucks\" refers to Akron's history in the rubber industry, in particular as the birthplace of tire and rubber companies such as Goodyear, Firestone, B.F. Goodrich, and General Tire."
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search more specifically for events scheduled in Akron in July 2026.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01T8GkdC36Dkmd7a1K8jtNST",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"\\\"Akron\\\" \\\"July 2026\\\" championship\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01T8GkdC36Dkmd7a1K8jtNST",
+      "content": "[Firestone Country Club] Firestone Country Club is a private golf club in the United States, located in Akron, Ohio. It was a regular stop on the PGA Tour and has hosted the PGA Championship three times. It is the current home of the Kaulig Companies Championship through 2026.\nThe club comprises three courses–those of the North, South, and Fazio. In 1974 the club hosted three televised golf events: the American Golf Classic, the CBS Golf Classic and the World Series of Golf. No other club has hosted three televised golf events in the same calendar year.\nOne of four World Golf Championships constituent events, the WGC-Bridgestone Invitational, directed by the International Federation of PGA Tours and sanctioned on the PGA and European Tours, was contested at the club with the final event at the club held in 2018. The North and West courses also serve as the home course for the University of Akron Zips golf team.\n\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search for more specific information about the Kaulig Companies Championship and its 2026 schedule.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01HSXw5U2AEvwg7VRtS5pPop",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Kaulig Companies Championship 2026 July\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01HSXw5U2AEvwg7VRtS5pPop",
+      "content": "[Kaulig Racing] Kaulig Racing is an American professional stock car racing team that competes in the NASCAR Cup Series and the NASCAR Craftsman Truck Series. Kaulig fields two Cup Series Chevrolet Camaro ZL1 teams: the No. 10 full-time for Ty Dillon and the No. 16 full-time for A. J. Allmendinger. They also field five full-time Truck RAM teams: the No. 10 truck for mostly Corey LaJoie, the No. 12 truck for Brenden Queen, the No. 14 truck for Mini Tyrrell, the No. 16 truck for Justin Haley, and the No. 25 truck, with various drivers as the flagship team for RAM. The team is owned by Matt Kaulig, who also owns the team's sponsor, LeafFilter. The team has a shop on the Richard Childress Racing campus in Welcome, North Carolina, and formerly operated out of the NTS Motorsports facility. The team previously competed in the NASCAR Xfinity Series."
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search more directly for PGA Tour events in Akron in 2026.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_012AyKRzFAo1BB2ShLeqXAAB",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"PGA Tour Akron Ohio 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_012AyKRzFAo1BB2ShLeqXAAB",
+      "content": "[Senior Players Championship] The Kaulig Companies Championship, formerly known as the Senior Players Championship, stylised by the PGA Tour as The SENIOR PLAYERS, is one of the five major championships on golf's PGA Tour Champions.  The inaugural event was played 43 years ago in 1983 and the age minimum is 50, the standard for men's senior professional golf tournaments.\nThe winner gains entry into the following season's Players Championship on the PGA Tour (although Retief Goosen, the 2019 winner, was not allowed to play in the official subsequent Players Championship). In 2022, businessman Matt Kaulig, whose enterprises include LeafFilter and a NASCAR team, took over title sponsorship of the event, renaming it the Kaulig Companies Championship.\nUnlike the U.S. Senior Open, the Senior PGA Championship, and the Senior Open Championship, it is not recognized as a major by the European Senior Tour, and is not part of that tour's schedule.\nSince 2019, the Senior Players championship has been held at the South course of the Firestone Country Club in Akron, Ohio; it replaced the WGC-Bridgestone Invitational that had been held there before moving to Memphis, Tennessee. The championship will move to Newport Beach Country Club in Newport Beach, California, in 2027.\nThe Senior Players Championship is the oldest continuously running major of senior golf's five majors, having been held annually since 1983. The other majors have had years where there has been a year without a tournament."
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Now let me search for the specific date of the Kaulig Companies Championship in July 2026.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01Fpb91251Yri1gXvwJKmmJh",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"\\\"Kaulig Companies Championship\\\" \\\"July 2026\\\" date\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01Fpb91251Yri1gXvwJKmmJh",
+      "content": "[2026 in sports] The main sporting events scheduled to be held in 2026 are the 2026 Winter Olympics, the 2026 Winter Paralympics, both staged in Milano Cortina, the 2026 FIFA World Cup in the United States, Canada and Mexico, the 2026 Commonwealth Games in Glasgow and the 2026 World Baseball Classic in the United States, Puerto Rico and Japan. In rugby league, the Men's, Women's and the Wheelchair Rugby League World Cups will all be held in Australia, New Zealand and Papua New Guinea.  In rugby union, there will be a new international rugby union tournament, which will be known as the World Rugby Nations Championship. There are also two T20 Cricket World Cups in 2026, the men's version will be staged in India and Sri Lanka while the women's version will be staged in England and Wales.\n\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search for more specific information about the Kaulig Companies Championship schedule.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01KG6RunSysNACuy3NLR6Vs9",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"Senior Players Championship\", \"keywords\": \"July 2026, Akron, date, schedule\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01KG6RunSysNACuy3NLR6Vs9",
+      "content": "Unlike the U.S. Senior Open, the Senior PGA Championship, and the Senior Open Championship, it is not recognized as a major by the European Senior Tour, and is not part of that tour's schedule.\nSince 2019, the Senior Players championship has been held at the South course of the Firestone Country Club in Akron, Ohio; it replaced the WGC-Bridgestone Invitational that had been held there before moving to Memphis, Tennessee. The championship will move to Newport Beach Country Club in Newport Beach, California, in 2027."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on my research, the championship held in Akron, Ohio in July 2026 is the **Kaulig Companies Championship** (formerly known as the Senior Players Championship). It is held at the South course of Firestone Country Club in Akron, Ohio. This is one of the five major championships on the PGA Tour Champions for senior golfers aged 50 and older.\n\nFINAL: Kaulig Companies Championship",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

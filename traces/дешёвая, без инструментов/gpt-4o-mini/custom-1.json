@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "custom-1",
+    "source": "custom",
+    "question": "What team won the College World Series in the United States on June 22, 2026?",
+    "answer": "Oklahoma Sooners",
+    "evidence": "June 22 – In college baseball, the Oklahoma Sooners baseball team defeat the North Carolina Tar Heels to win the College World Series for the first time since their 1994 season.",
+    "page": "2026 in the United States",
+    "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "prediction": "У меня нет информации о событиях, произошедших после октября 2023 года. Поэтому я не могу ответить на вопрос о победителе College World Series в 2026 году. \n\nFINAL: Нет данных.",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "What team won the College World Series in the United States on June 22, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "У меня нет информации о событиях, произошедших после октября 2023 года. Поэтому я не могу ответить на вопрос о победителе College World Series в 2026 году. \n\nFINAL: Нет данных.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

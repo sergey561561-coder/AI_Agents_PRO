@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "fresh-54",
+    "source": "fresh",
+    "question": "How many people were killed in the fire at a shopping mall in Karachi on January 17, 2026?",
+    "answer": "80",
+    "evidence": "January 17 – A fire at a shopping mall in Karachi, Pakistan, kills 80 people.",
+    "page": "2026",
+    "url": "https://en.wikipedia.org/wiki/2026",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "prediction": "I don't have access to real-time data or events that occurred after October 2023. Therefore, I cannot provide information about the fire at a shopping mall in Karachi on January 17, 2026. Please check the latest news sources for accurate information. \n\nFINAL: Unknown",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "How many people were killed in the fire at a shopping mall in Karachi on January 17, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have access to real-time data or events that occurred after October 2023. Therefore, I cannot provide information about the fire at a shopping mall in Karachi on January 17, 2026. Please check the latest news sources for accurate information. \n\nFINAL: Unknown",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "task": {
+    "id": "fresh-91",
+    "source": "fresh",
+    "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+    "answer": "₹25,863 crore",
+    "evidence": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.",
+    "page": "2026 in India",
+    "url": "https://en.wikipedia.org/wiki/2026_in_India",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "prediction": "FINAL: No information available.",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_U2dtXr3OaXrrfWVafdOPfBrw",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 amount released\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_U2dtXr3OaXrrfWVafdOPfBrw",
+      "content": "[2026 in India] The following is a list of events for the year 2026 in India.\n\n"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_uAvnu91zssKbsvRiAAkfF3Yx",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_uAvnu91zssKbsvRiAAkfF3Yx",
+      "content": "[2026 in India] The following is a list of events for the year 2026 in India.\n\n"
+    },
+    {
+      "role": "user",
+      "content": "You repeated the same action. Please provide your final answer now starting with FINAL: "
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: No information available.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

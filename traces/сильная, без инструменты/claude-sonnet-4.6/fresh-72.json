@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "fresh-72",
+    "source": "fresh",
+    "question": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?",
+    "answer": "Dharmendra Pradhan",
+    "evidence": "The Cockroach Janta Party organises the Sansad Chalo March demanding the resignation of Education Minister Dharmendra Pradhan over the 2026 NEET controversy.",
+    "page": "2026 in India",
+    "url": "https://en.wikipedia.org/wiki/2026_in_India",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "prediction": "I don't have reliable information about a \"Cockroach Janta Party\" in India or their demands regarding an Education Minister in 2026. This could be a fictional, satirical, or very obscure political party that isn't well documented in my training data, or it may refer to events after my knowledge cutoff.\n\nCould you provide more context about where you encountered this information? That would help me give you a better answer.\n\nFINAL: I don't have sufficient information to answer this question.",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have reliable information about a \"Cockroach Janta Party\" in India or their demands regarding an Education Minister in 2026. This could be a fictional, satirical, or very obscure political party that isn't well documented in my training data, or it may refer to events after my knowledge cutoff.\n\nCould you provide more context about where you encountered this information? That would help me give you a better answer.\n\nFINAL: I don't have sufficient information to answer this question.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

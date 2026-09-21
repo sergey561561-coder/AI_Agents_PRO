@@ -1,0 +1,53 @@
+{
+  "task": {
+    "id": "custom-18",
+    "source": "custom",
+    "question": "How many people were killed in the mass shooting in Kyiv on April 18, 2026?",
+    "answer": "Six",
+    "evidence": "18 April – Six people, including the gunman, are killed in a mass shooting and hostage crisis at a supermarket in Kyiv.",
+    "page": "2026 in Ukraine",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "prediction": "FINAL: 8",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "How many people were killed in the mass shooting in Kyiv on April 18, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_DHUKe7Kjy7CjVdcB3gcFn1ZJ",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Kyiv mass shooting April 18 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_DHUKe7Kjy7CjVdcB3gcFn1ZJ",
+      "content": "[2026 Kyiv shooting] On 18 April 2026, a mass shooting occurred in the Demiivka neighborhood of the Holosiivskyi District of Kyiv, Ukraine, when a man opened fire on his neighbours and passers-by in the street before taking hostages inside a supermarket. He was shot and killed by police in a shootout when the Rapid Operational Response Unit (KORD) stormed the supermarket. Eight people were killed, including the perpetrator, and thirteen others were injured.\nThe perpetrator was 57-year-old Dmytro Vasylchenkov, a Russian-born citizen of Ukraine. He had been in dispute with his neighbours and also made anti-Ukrainian and neo-Nazi statements. The shooting is being investigated as a possible terrorist attack. Two responding police officers were charged with official negligence for allegedly failing to properly confront Vasylchenkov."
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: 8",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

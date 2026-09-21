@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "custom-5",
+    "source": "custom",
+    "question": "What temperatures are forecast to reach on 13 August 2026 in England?",
+    "answer": "36°C",
+    "evidence": "Amber heat health alerts are issued for most of England, effective from 9am on 11 August until 9am on 14 August, with temperatures forecast to reach 36°C on 13 August.",
+    "page": "2026 in the United Kingdom",
+    "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "prediction": "I don't have access to real-time weather forecasts or future weather data. My knowledge has a cutoff, and I cannot retrieve live or future forecast information for August 13, 2026.\n\nTo get an accurate forecast for that date, I'd recommend checking:\n- **Met Office** (metoffice.gov.uk) — the UK's official weather service\n- **BBC Weather**\n- **Weather.com** or similar services\n\nThese will provide reliable forecasts as the date approaches (typically accurate forecasts are available 10–14 days in advance).\n\nFINAL: I cannot provide weather forecasts for future dates as I have no access to real-time forecast data.",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "What temperatures are forecast to reach on 13 August 2026 in England?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have access to real-time weather forecasts or future weather data. My knowledge has a cutoff, and I cannot retrieve live or future forecast information for August 13, 2026.\n\nTo get an accurate forecast for that date, I'd recommend checking:\n- **Met Office** (metoffice.gov.uk) — the UK's official weather service\n- **BBC Weather**\n- **Weather.com** or similar services\n\nThese will provide reliable forecasts as the date approaches (typically accurate forecasts are available 10–14 days in advance).\n\nFINAL: I cannot provide weather forecasts for future dates as I have no access to real-time forecast data.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

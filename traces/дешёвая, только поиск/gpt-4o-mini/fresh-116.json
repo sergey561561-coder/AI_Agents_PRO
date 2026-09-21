@@ -1,0 +1,75 @@
+{
+  "task": {
+    "id": "fresh-116",
+    "source": "fresh",
+    "question": "Who was associated with the 2026 U.S. Women's Open held in California?",
+    "answer": "Nelly Korda",
+    "evidence": "June 4–7: 2026 U.S. Women's Open at Riviera Country Club in Pacific Palisades, California – Nelly Korda",
+    "page": "2026 in sports",
+    "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+    "sonnet_answer": "The 2026 U.S. Women's Open is scheduled to be held at Riviera Country Club in Pacific Palisades, California. Riviera Country Club is historically associated with Ben Hogan, who won there multiple times and gave the course its nickname 'Hogan's Alley.'",
+    "agent_ok": true
+  },
+  "prediction": "The 2026 U.S. Women's Open was associated with Nelly Korda, who won the tournament, and it was held at Riviera Country Club in Pacific Palisades, California. \n\nFINAL: Nelly Korda",
+  "correct": true,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "Who was associated with the 2026 U.S. Women's Open held in California?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_03Co2C6rWj6TbvvjpC6DCgSY",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"2026 U.S. Women's Open California associated people\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_03Co2C6rWj6TbvvjpC6DCgSY",
+      "content": "[2026 California gubernatorial election] An election will be held in the U.S. state of California on November 3, 2026, to elect the next governor of California. The nominees are Democratic former secretary of health and human services Xavier Becerra and Republican political commentator Steve Hilton. Democratic incumbent Gavin Newsom is ineligible to seek re-election to a third term.\nThe statewide top-two primary election was held on June 2, 2026, with Becerra and Hilton advancing to the general election among the 61 candidates on the ballot. Republicans have not won a gubernatorial race in California since 2006."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Xi4MycGoEY5tz9W2ybtqFr4A",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"2026 U.S. Women's Open California news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Xi4MycGoEY5tz9W2ybtqFr4A",
+      "content": "[2026 U.S. Women's Open] The 2026 U.S. Women's Open presented by Ally was the 81st U.S. Women's Open, held June 4–7 at Riviera Country Club in Pacific Palisades, California.\nNelly Korda won her fourth major title (and second consecutive), one stroke ahead of runners-up Charley Hull and Gaby López. This was Korda's first victory at the U.S. Women's Open."
+    },
+    {
+      "role": "assistant",
+      "content": "The 2026 U.S. Women's Open was associated with Nelly Korda, who won the tournament, and it was held at Riviera Country Club in Pacific Palisades, California. \n\nFINAL: Nelly Korda",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

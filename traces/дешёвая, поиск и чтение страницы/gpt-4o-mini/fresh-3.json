@@ -1,0 +1,75 @@
+{
+  "task": {
+    "id": "fresh-3",
+    "source": "fresh",
+    "question": "What agreement did Ukraine and Romania sign in March 2026?",
+    "answer": "a strategic partnership agreement",
+    "evidence": "12 March – Ukraine and Romania sign a strategic partnership agreement in the defense and energy sectors.",
+    "page": "2026 in Ukraine",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "prediction": "In March 2026, Ukraine and Romania signed a strategic partnership agreement in the defense and energy sectors. \n\nFINAL: Strategic partnership agreement in defense and energy sectors.",
+  "correct": true,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "What agreement did Ukraine and Romania sign in March 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_3Ro6KMHP3f3ju0LoD7iThGUy",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Ukraine Romania agreement March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_3Ro6KMHP3f3ju0LoD7iThGUy",
+      "content": "[2026 in Romania] Events from the year 2026 in Romania.\n\n"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_nzyJJvsqtApE1rNPGkidqmbb",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"2026 in Romania\",\"keywords\":\"Ukraine, Romania, agreement\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_nzyJJvsqtApE1rNPGkidqmbb",
+      "content": "Events from the year 2026 in Romania.\n11 March – Romania authorizes the United States to use its air bases to refuel aircraft and deploy monitoring and satellite communications equipment in support of military operations related to the Iran war, following approval by the Romanian parliament and the Supreme Council of National Defence.\n12 March – Ukraine and Romania sign a strategic partnership agreement in the defense and energy sectors.\n31 March – The Sector 6 Court of Bucharest and the Bucharest Tribunal rule that Arian Mirzarafie-Ahi, a transgender man, double citizen of Romania and the United Kingdom, has the right to be recognised as male in identity documents issued by the Romanian government.\n20 April – Gheorghe Hagi becomes the Romania national football team's head coach, on a four-year contract."
+    },
+    {
+      "role": "assistant",
+      "content": "In March 2026, Ukraine and Romania signed a strategic partnership agreement in the defense and energy sectors. \n\nFINAL: Strategic partnership agreement in defense and energy sectors.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

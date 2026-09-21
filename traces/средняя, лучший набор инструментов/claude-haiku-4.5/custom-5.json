@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "custom-5",
+    "source": "custom",
+    "question": "What temperatures are forecast to reach on 13 August 2026 in England?",
+    "answer": "36°C",
+    "evidence": "Amber heat health alerts are issued for most of England, effective from 9am on 11 August until 9am on 14 August, with temperatures forecast to reach 36°C on 13 August.",
+    "page": "2026 in the United Kingdom",
+    "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "prediction": "I don't have access to weather forecast data or tools that can retrieve future weather predictions. Weather forecasts are typically only available for a limited period ahead (usually up to 10-14 days), and forecasts for August 2026 (which is over a year and a half away) are not available.\n\nTo get weather forecasts for England, you would need to:\n1. Check weather websites like the UK Met Office (metoffice.gov.uk), BBC Weather, or Weather.com\n2. Note that these sites only provide forecasts for the next 10-14 days at most\n3. For a specific date like August 13, 2026, you would need to check closer to that date\n\nIs there something else I can help you with?",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "What temperatures are forecast to reach on 13 August 2026 in England?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have access to weather forecast data or tools that can retrieve future weather predictions. Weather forecasts are typically only available for a limited period ahead (usually up to 10-14 days), and forecasts for August 2026 (which is over a year and a half away) are not available.\n\nTo get weather forecasts for England, you would need to:\n1. Check weather websites like the UK Met Office (metoffice.gov.uk), BBC Weather, or Weather.com\n2. Note that these sites only provide forecasts for the next 10-14 days at most\n3. For a specific date like August 13, 2026, you would need to check closer to that date\n\nIs there something else I can help you with?",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

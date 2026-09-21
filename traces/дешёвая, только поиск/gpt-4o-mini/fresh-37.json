@@ -1,0 +1,123 @@
+{
+  "task": {
+    "id": "fresh-37",
+    "source": "fresh",
+    "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+    "answer": "15 June",
+    "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+    "page": "2026 in the United Kingdom",
+    "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "prediction": "FINAL: Information not found.",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_BW7vN8eiroy0D2n8Rb6V41Jj",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"resident doctors England four-day strike June 2026 date\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_BW7vN8eiroy0D2n8Rb6V41Jj",
+      "content": "[2026 in England] Events of the year 2026 in England.\n\n"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_CHNjpbuSQUYw34S1CBaXfy48",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"England resident doctors strike June 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_CHNjpbuSQUYw34S1CBaXfy48",
+      "content": "[Resident doctor (United Kingdom)] In the United Kingdom, a resident doctor, known until 2024 as a junior doctor, is a qualified medical practitioner who is either engaged in postgraduate training or employed in a non-training post. The period of being a resident doctor starts when they qualify as a medical practitioner following graduation with a Bachelor of Medicine, Bachelor of Surgery degree and start the UK Foundation Programme. It culminates in a post as a consultant, a general practitioner (GP), or becoming a SAS doctor (Specialty, Associate Specialist, or Specialist doctor).\nThe term resident doctor currently incorporates the grades of foundation doctor, core trainee (in some specialties, such as surgery, medicine, and psychiatry), and specialty registrar. Before 2007, it included the grades of pre-registration house officer, senior house officer and specialist registrar. During this time, resident doctors will do postgraduate examinations to become members of a medical royal college relevant to the specialty in which they are training, for example membership of the Royal College of Physicians for doctors specialising in internal medicine, membership of the Royal College of Surgeons for doctors specialising in surgery or membership of the Royal College of General Practitioners for doctors specialising in family medicine. Doctors typically may be resident doctors for 8–20 years, and this may be extended by doing research towards a higher degree, for example a Doctor of Philosophy or Doctor of Medicine degree. In England, there are around 71,000 resident doctors.\n\n"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_KhwTi1WNuVIKkGLO6An38TG1",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"junior doctors strike June 2026 England announcement date\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_KhwTi1WNuVIKkGLO6An38TG1",
+      "content": "[United Kingdom industrial disputes and strikes (2022–present)] Since May–June 2022, a series of labour strikes and industrial disputes have occurred in various industries of the United Kingdom's economy as workers walked out over pay and conditions. The strikes took place with rising inflation, and demands for pay increases that would keep pace with this inflation.\nThe strikes began on 15 June 2022 after members of the National Union of Rail, Maritime and Transport Workers (RMT) voted to strike over planned changes to their pay and working conditions. They were soon joined by other railway unions, and a series of one-day strikes halted trains in many parts of the British mainland. Train services operated at 20% of normal capacity on strike days. Public support for the strikes was organised through the Enough is Enough! campaign.\nWith industrial action on the railways ongoing, trade union members working in other industries voted to take industrial action, including telecommunications, the postal service, legal profession and freight, as well as other areas of the transport sector."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_PB7aNz4oZuY6ytPirQ9RiAsr",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"junior doctors strike announcement June 2026 England\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_PB7aNz4oZuY6ytPirQ9RiAsr",
+      "content": "[United Kingdom industrial disputes and strikes (2022–present)] Since May–June 2022, a series of labour strikes and industrial disputes have occurred in various industries of the United Kingdom's economy as workers walked out over pay and conditions. The strikes took place with rising inflation, and demands for pay increases that would keep pace with this inflation.\nThe strikes began on 15 June 2022 after members of the National Union of Rail, Maritime and Transport Workers (RMT) voted to strike over planned changes to their pay and working conditions. They were soon joined by other railway unions, and a series of one-day strikes halted trains in many parts of the British mainland. Train services operated at 20% of normal capacity on strike days. Public support for the strikes was organised through the Enough is Enough! campaign.\nWith industrial action on the railways ongoing, trade union members working in other industries voted to take industrial action, including telecommunications, the postal service, legal profession and freight, as well as other areas of the transport sector."
+    },
+    {
+      "role": "user",
+      "content": "You repeated the same action. Please provide your final answer now starting with FINAL: "
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Information not found.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "task": {
+    "id": "fresh-101",
+    "source": "fresh",
+    "question": "What is the duration of the ceasefire in the 2026 Lebanon war?",
+    "answer": "10-day",
+    "evidence": "April 16 – 2026 Lebanon war: A US-brokered 10-day ceasefire takes effect between Israel and Lebanon, following ambassador-level talks in the White House.",
+    "page": "2026",
+    "url": "https://en.wikipedia.org/wiki/2026",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "prediction": "Based on the search results, the initial ceasefire in the 2026 Lebanon war was **10 days**. This was the original agreement announced on April 16, 2026, brokered by the United States.\n\nHowever, the ceasefire was subsequently extended multiple times:\n- On April 23: extended for three weeks\n- On May 15: extended for another 45 days\n- Further extensions and negotiations followed in June\n\nFINAL: The initial ceasefire duration was 10 days, though it was subsequently extended multiple times.",
+  "correct": true,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "What is the duration of the ceasefire in the 2026 Lebanon war?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about a 2026 Lebanon war and ceasefire.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01M1sohJ6Dwt2GYtWxWTuUNu",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"2026 Lebanon war ceasefire\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01M1sohJ6Dwt2GYtWxWTuUNu",
+      "content": "[2026 Israel–Lebanon ceasefire] The 2026 Israel–Lebanon ceasefire is a cessation of hostilities agreed between Israel and Lebanon on 16 April 2026, amid the ongoing 2026 Lebanon war and wider regional conflict linked to the 2026 Iran war. The agreement, brokered by the United States, established a 10-day truce intended to halt active fighting and create conditions for further negotiations toward a longer-term settlement. \nThe ceasefire came into effect shortly after its announcement and marked the first direct diplomatic engagement between Israel and Lebanon in decades. On 17 April, Iran announced that passage of commercial vessels through the Hormuz Strait was completely open during the truce in Lebanon, but closed it again the next day in response to the US refusal to lift its naval blockade. \nOn 23 April, US President Donald Trump announced that Israel and Lebanon agreed to a three-week extension of the ceasefire. On 27 April, Hezbollah leader Naim Qassem stated that the group will not revert to the pre-March status and will respond to Israeli attacks. On 15 May, the truce was extended for another 45 days. On 1 June, Israel and Hezbollah agreed to a ceasefire, with Israel committing not to target Beirut's southern suburbs and Hezbollah vowing not to attack Israel, under a US proposal aiming to extend the ceasefire to all of Lebanon. On 3 June, Israel and Lebanon agreed to renew the ceasefire, mediated by the US, and plan to establish \"pilot zones\". On 4 June, Hezbollah rejected the truce deal announced the previous day and instead demanded a comprehensive truce and full withdrawal of Israel from Lebanon. On 19 June, an American official said that Israel and Hezbollah agreed to a truce mediated by the US, Qatar and Iran. On 26 June, US Secretary of State Marco Rubio announced a framework deal between Israel and Lebanon for \"lasting peace and security\" via US mediation. The agreement includes a cease-fire, requiring Hezbollah to end hostilities and withdraw from so"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, the initial ceasefire in the 2026 Lebanon war was **10 days**. This was the original agreement announced on April 16, 2026, brokered by the United States.\n\nHowever, the ceasefire was subsequently extended multiple times:\n- On April 23: extended for three weeks\n- On May 15: extended for another 45 days\n- Further extensions and negotiations followed in June\n\nFINAL: The initial ceasefire duration was 10 days, though it was subsequently extended multiple times.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

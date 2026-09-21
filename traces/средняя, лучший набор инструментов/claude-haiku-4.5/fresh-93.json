@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "fresh-93",
+    "source": "fresh",
+    "question": "Which country wins the 2026 FIFA World Cup on July 19, 2026?",
+    "answer": "Spain",
+    "evidence": "19 July – Spain wins the 2026 FIFA World Cup after defeating Argentina 1–0 at the final.",
+    "page": "2026 in Spain",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "prediction": "I don't have access to future information. The 2026 FIFA World Cup hasn't happened yet, so I cannot tell you which country will win it on July 19, 2026.\n\nThe 2026 FIFA World Cup will be held in the United States, Canada, and Mexico, but the outcome is unknown and will only be determined when the tournament is played.\n\nIf you're interested in predictions or historical information about past World Cups, I'd be happy to help with that instead!",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "Which country wins the 2026 FIFA World Cup on July 19, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have access to future information. The 2026 FIFA World Cup hasn't happened yet, so I cannot tell you which country will win it on July 19, 2026.\n\nThe 2026 FIFA World Cup will be held in the United States, Canada, and Mexico, but the outcome is unknown and will only be determined when the tournament is played.\n\nIf you're interested in predictions or historical information about past World Cups, I'd be happy to help with that instead!",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

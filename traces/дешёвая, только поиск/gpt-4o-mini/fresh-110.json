@@ -1,0 +1,97 @@
+{
+  "task": {
+    "id": "fresh-110",
+    "source": "fresh",
+    "question": "Who wins the special election in Georgia in 2026?",
+    "answer": "Clay Fuller",
+    "evidence": "Assistant District Attorney Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene, who resigned in January following a public fallout with Trump.",
+    "page": "2026 in the United States",
+    "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "prediction": "Everton Blair won the special election in Georgia in 2026. \n\nFINAL: Everton Blair",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "Who wins the special election in Georgia in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_7z69gVCXg0jOeaU7m7NqiKti",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Georgia special election 2026 results\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_7z69gVCXg0jOeaU7m7NqiKti",
+      "content": "[2026 Georgia's 13th congressional district special election] The 2026 Georgia's 13th congressional district special election was held on July 28, 2026, to elect the U.S. representative for Georgia's 13th congressional district. The special election was triggered following the death of incumbent Democratic representative David Scott on April 22, 2026. As no candidate received a majority of the vote, a runoff was held on August 25 between Democrats Marcye Scott and Everton Blair."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_uJwfILyR4NHfjD0T2H5RQlhz",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Georgia special election 2026 runoff results\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_uJwfILyR4NHfjD0T2H5RQlhz",
+      "content": "[2026 Georgia gubernatorial election] The 2026 Georgia gubernatorial election will take place on November 3, 2026, to elect the governor of Georgia. Incumbent Republican governor Brian Kemp is ineligible to seek re-election to a third consecutive term. Primary elections were held on May 19, 2026, with a primary runoff held on June 16. Rick Jackson and Burt Jones received the most votes in the first round of the Republican primary, but failed to reach the 50% threshold, causing a runoff which Jackson won. Jackson will face off against Democratic nominee Keisha Lance Bottoms in November.\nThe 2026 gubernatorial primary was the first time that Democratic turnout exceeded that of Republicans since 2006.\nIf elected, Lance Bottoms would be the first female and first African-American governor of Georgia, as well as the first female African-American governor in United States history."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_KE1sJAZFYurPQii2Fn8wwSYB",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Marcye Scott Everton Blair runoff results August 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_KE1sJAZFYurPQii2Fn8wwSYB",
+      "content": "[Everton Blair] Everton Blair Jr. (born April 23, 1992) is an American politician and educator serving as the U.S. representative for Georgia's 13th congressional district since September 2026. A member of the Democratic Party, he won a special election to fill the unexpired term of the late David Scott. Blair is the first openly LGBT African American elected to represent a Southern state in Congress.\nBlair previously served as a member and chair of the Gwinnet County School Board. He ran in the regularly-scheduled primary election for a full term in May 2026, placing third with 11.6% of the vote."
+    },
+    {
+      "role": "assistant",
+      "content": "Everton Blair won the special election in Georgia in 2026. \n\nFINAL: Everton Blair",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

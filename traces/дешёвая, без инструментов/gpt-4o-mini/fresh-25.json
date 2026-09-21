@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "fresh-25",
+    "source": "fresh",
+    "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+    "answer": "\"open war\"",
+    "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+    "page": "2026",
+    "url": "https://en.wikipedia.org/wiki/2026",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "prediction": "I do not have information on events that occurred after October 2023. Therefore, I cannot provide details about the government's declaration in Pakistan on February 26, 2026. \n\nFINAL: Information not available.",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I do not have information on events that occurred after October 2023. Therefore, I cannot provide details about the government's declaration in Pakistan on February 26, 2026. \n\nFINAL: Information not available.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

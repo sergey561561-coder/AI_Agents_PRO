@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "custom-18",
+    "source": "custom",
+    "question": "How many people were killed in the mass shooting in Kyiv on April 18, 2026?",
+    "answer": "Six",
+    "evidence": "18 April – Six people, including the gunman, are killed in a mass shooting and hostage crisis at a supermarket in Kyiv.",
+    "page": "2026 in Ukraine",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "prediction": "I don't have information about a mass shooting in Kyiv on April 18, 2026. My knowledge cutoff is July 2025, so I cannot access or verify events that may have occurred after that date.\n\nIf this event occurred, I'd recommend checking current reliable news sources for accurate information.\n\nFINAL: I don't have information about this event",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "How many people were killed in the mass shooting in Kyiv on April 18, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have information about a mass shooting in Kyiv on April 18, 2026. My knowledge cutoff is July 2025, so I cannot access or verify events that may have occurred after that date.\n\nIf this event occurred, I'd recommend checking current reliable news sources for accurate information.\n\nFINAL: I don't have information about this event",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

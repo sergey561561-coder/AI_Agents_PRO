@@ -1,0 +1,67 @@
+{
+  "task": {
+    "id": "fresh-96",
+    "source": "fresh",
+    "question": "In which city were the 2026 European Men's and Women's Team Badminton Championships held?",
+    "answer": "Istanbul",
+    "evidence": "February 11 – 15 : 2026 European Men's and Women's Team Badminton Championships in Istanbul, Turkey",
+    "page": "2026 in sports",
+    "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+    "sonnet_answer": "Katowice",
+    "agent_ok": true
+  },
+  "prediction": "The 2026 European Men's and Women's Team Badminton Championships were held in Huelva, Spain. \n\nFINAL: Huelva, Spain",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "In which city were the 2026 European Men's and Women's Team Badminton Championships held?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_97vVcP6N0MePGE3p4HoTk8qt",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"2026 European Men's Team Badminton Championships location\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "call_plAJJDEiCe7RLhmcLouRxJUz",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"2026 European Women's Team Badminton Championships location\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_97vVcP6N0MePGE3p4HoTk8qt",
+      "content": "[2026 European Badminton Championships] The 2026 European Badminton Championships is the 32nd edition of the European Badminton Championships. It is held in Palacio de los Deportes Carolina Marín, Huelva, Spain, from 6 to 12 April 2026."
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_plAJJDEiCe7RLhmcLouRxJUz",
+      "content": "[2026 European Badminton Championships] The 2026 European Badminton Championships is the 32nd edition of the European Badminton Championships. It is held in Palacio de los Deportes Carolina Marín, Huelva, Spain, from 6 to 12 April 2026."
+    },
+    {
+      "role": "assistant",
+      "content": "The 2026 European Men's and Women's Team Badminton Championships were held in Huelva, Spain. \n\nFINAL: Huelva, Spain",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

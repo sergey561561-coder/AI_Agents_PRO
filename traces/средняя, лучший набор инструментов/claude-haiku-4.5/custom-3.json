@@ -1,0 +1,75 @@
+{
+  "task": {
+    "id": "custom-3",
+    "source": "custom",
+    "question": "What commission is convened in South Korea on 26 February 2026?",
+    "answer": "Truth and Reconciliation Commission",
+    "evidence": "26 February – A Truth and Reconciliation Commission is convened to investigate anomalies in the international adoption of South Korean children.",
+    "page": "2026 in South Korea",
+    "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "prediction": "FINAL: A Truth and Reconciliation Commission is convened on February 26, 2026 in South Korea to investigate anomalies in the international adoption of South Korean children.",
+  "correct": true,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "What commission is convened in South Korea on 26 February 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about a commission that is convened in South Korea on February 26, 2026.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_019r3XPTgrmR89Mk1swZqMtH",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"South Korea commission February 26 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_019r3XPTgrmR89Mk1swZqMtH",
+      "content": "[2026 in South Korea] Scheduled events in 2026 in South Korea.\n\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search for more specific information about this event.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01WbHvyLJww62CeqAfuu4DLz",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"2026 in South Korea\", \"keywords\": \"February 26, commission, convened\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01WbHvyLJww62CeqAfuu4DLz",
+      "content": "26 February – A Truth and Reconciliation Commission is convened to investigate anomalies in the international adoption of South Korean children.\n23 July – A special investigation team consisting of police and prosecutors raids the headquarters and branches of the National Election Commission over allegations that some employees manipulated data to cover up errors in the voter turnout count from the June 3 local elections."
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: A Truth and Reconciliation Commission is convened on February 26, 2026 in South Korea to investigate anomalies in the international adoption of South Korean children.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

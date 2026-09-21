@@ -1,0 +1,97 @@
+{
+  "task": {
+    "id": "custom-12",
+    "source": "custom",
+    "question": "How many people were killed in the explosion at a firecrackers factory in India?",
+    "answer": "23",
+    "evidence": "19 April – At least 23 people are killed and six others are injured in an explosion at a firecrackers factory in Virudhunagar, Tamil Nadu.",
+    "page": "2026 in India",
+    "url": "https://en.wikipedia.org/wiki/2026_in_India",
+    "sonnet_answer": "The question lacks specifics, but notable incidents include: ~39 killed in Tamil Nadu (2012), ~19 in Tamil Nadu (2021), and ~11 in Madhya Pradesh (2024). Please specify which incident for an exact answer.",
+    "agent_ok": true
+  },
+  "prediction": "The explosion at the firecrackers factory in India resulted in 40 deaths. \n\nFINAL: 40",
+  "correct": false,
+  "trace": [
+    {
+      "role": "system",
+      "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+    },
+    {
+      "role": "user",
+      "content": "How many people were killed in the explosion at a firecrackers factory in India?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_NkcYX3SRD5A2qY0QrIAg6gqm",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"firecrackers factory explosion India deaths\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_NkcYX3SRD5A2qY0QrIAg6gqm",
+      "content": "[List of explosions] This is a list of accidental explosions and facts about each one, grouped by the time of their occurrence. It does not include explosions caused by terrorist attacks or arson, as well as intentional explosions for civil or military purposes. It may still include entries for which the cause is unclear or still under investigation. \nFor a list based on power or death toll see largest artificial non-nuclear explosions or the explosions section of list of accidents and disasters by death toll. This list also contains notable explosions that would not qualify for the articles mentioned above and is more detailed, especially for the latest centuries."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_7EjseNz4rwMtGoCw8K4L6LWy",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"firecrackers factory explosion India news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_7EjseNz4rwMtGoCw8K4L6LWy",
+      "content": "[Sivakasi factory explosion] The 2012 Sivakasi factory explosion was an explosion at the Om Sakthi Fireworks Industries fireworks factory in Sivakasi, India, on 5 September 2012. Forty people were killed and more than 70 were injured. The explosion occurred in a fireworks factory which did not have a valid licence."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_aB1qzWBCYPIWcPC40HItYH1H",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"Sivakasi factory explosion\",\"keywords\":\"deaths, killed\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_aB1qzWBCYPIWcPC40HItYH1H",
+      "content": "The 2012 Sivakasi factory explosion was an explosion at the Om Sakthi Fireworks Industries fireworks factory in Sivakasi, India, on 5 September 2012. Forty people were killed and more than 70 were injured. The explosion occurred in a fireworks factory which did not have a valid licence.\nThe initial death toll was 37, followed by reports several weeks later of a final confirmed total of 40 deaths and more than 70 injuries. Fatalities included factory workers and local villagers who walked in after the initial fire."
+    },
+    {
+      "role": "assistant",
+      "content": "The explosion at the firecrackers factory in India resulted in 40 deaths. \n\nFINAL: 40",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}
